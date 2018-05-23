@@ -1,0 +1,29 @@
+{
+  "name": "clonogram-db",
+  "version": "1.0.0",
+  "description": "Clonogram database client",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "lint-fix":"standard --fix",
+    "test": "npm run lint && ava"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bider88/clonogram-db.git"
+  },
+  "author": "Irving Didier <irvingdidier.sarmiento@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bider88/clonogram-db/issues"
+  },
+  "homepage": "https://github.com/bider88/clonogram-db#readme",
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "babel-eslint": "^8.2.3",
+    "standard": "^11.0.1"
+  }
+}
